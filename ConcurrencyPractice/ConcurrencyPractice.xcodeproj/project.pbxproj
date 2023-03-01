@@ -15,6 +15,18 @@
 		1E574E5029A60BE90070B03B /* ConcurrencyPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E574E4F29A60BE90070B03B /* ConcurrencyPracticeTests.swift */; };
 		1E574E5A29A60BE90070B03B /* ConcurrencyPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E574E5929A60BE90070B03B /* ConcurrencyPracticeUITests.swift */; };
 		1E574E5C29A60BE90070B03B /* ConcurrencyPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E574E5B29A60BE90070B03B /* ConcurrencyPracticeUITestsLaunchTests.swift */; };
+		1E574E7029A60F5D0070B03B /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E574E6F29A60F5D0070B03B /* TargetType.swift */; };
+		1E574E7229A60F680070B03B /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E574E7129A60F680070B03B /* Endpoint.swift */; };
+		1E574E7429A60F720070B03B /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E574E7329A60F720070B03B /* NetworkError.swift */; };
+		1E574E7629A60F7B0070B03B /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E574E7529A60F7B0070B03B /* HTTPMethod.swift */; };
+		1E73D63C29AF31F200CE3DAB /* NetworkEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73D63B29AF31F200CE3DAB /* NetworkEncoder.swift */; };
+		1E73D63E29AF31F800CE3DAB /* NetworkDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73D63D29AF31F800CE3DAB /* NetworkDecoder.swift */; };
+		1E73D64229AF364E00CE3DAB /* MainTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73D64129AF364E00CE3DAB /* MainTableViewDataSource.swift */; };
+		1E73D64429AF365700CE3DAB /* MainTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73D64329AF365700CE3DAB /* MainTableViewDelegate.swift */; };
+		1E73D64629AF366100CE3DAB /* CellIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73D64529AF366100CE3DAB /* CellIdentifiable.swift */; };
+		1E73D64829AF367200CE3DAB /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73D64729AF367200CE3DAB /* UIImageView+Extension.swift */; };
+		1E73D64A29AF369300CE3DAB /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73D64929AF369300CE3DAB /* MainTableViewCell.swift */; };
+		1E73D64D29AF484E00CE3DAB /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73D64C29AF484E00CE3DAB /* NetworkProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		1E574E5529A60BE90070B03B /* ConcurrencyPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcurrencyPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E574E5929A60BE90070B03B /* ConcurrencyPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyPracticeUITests.swift; sourceTree = "<group>"; };
 		1E574E5B29A60BE90070B03B /* ConcurrencyPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E574E6F29A60F5D0070B03B /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		1E574E7129A60F680070B03B /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		1E574E7329A60F720070B03B /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		1E574E7529A60F7B0070B03B /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		1E73D63B29AF31F200CE3DAB /* NetworkEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEncoder.swift; sourceTree = "<group>"; };
+		1E73D63D29AF31F800CE3DAB /* NetworkDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDecoder.swift; sourceTree = "<group>"; };
+		1E73D64129AF364E00CE3DAB /* MainTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewDataSource.swift; sourceTree = "<group>"; };
+		1E73D64329AF365700CE3DAB /* MainTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewDelegate.swift; sourceTree = "<group>"; };
+		1E73D64529AF366100CE3DAB /* CellIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifiable.swift; sourceTree = "<group>"; };
+		1E73D64729AF367200CE3DAB /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		1E73D64929AF369300CE3DAB /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		1E73D64C29AF484E00CE3DAB /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +164,13 @@
 		1E574E6A29A60CF30070B03B /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				1E574E6F29A60F5D0070B03B /* TargetType.swift */,
+				1E574E7329A60F720070B03B /* NetworkError.swift */,
+				1E574E7529A60F7B0070B03B /* HTTPMethod.swift */,
+				1E574E7129A60F680070B03B /* Endpoint.swift */,
+				1E73D64C29AF484E00CE3DAB /* NetworkProvider.swift */,
+				1E73D63B29AF31F200CE3DAB /* NetworkEncoder.swift */,
+				1E73D63D29AF31F800CE3DAB /* NetworkDecoder.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -147,7 +178,11 @@
 		1E574E6B29A60CF70070B03B /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				1E73D64B29AF36AB00CE3DAB /* Support */,
 				1E574E3C29A60BE80070B03B /* MainViewController.swift */,
+				1E73D64929AF369300CE3DAB /* MainTableViewCell.swift */,
+				1E73D64329AF365700CE3DAB /* MainTableViewDelegate.swift */,
+				1E73D64129AF364E00CE3DAB /* MainTableViewDataSource.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -178,6 +213,15 @@
 				1E574E4629A60BE90070B03B /* Info.plist */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		1E73D64B29AF36AB00CE3DAB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1E73D64729AF367200CE3DAB /* UIImageView+Extension.swift */,
+				1E73D64529AF366100CE3DAB /* CellIdentifiable.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,9 +354,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E574E7029A60F5D0070B03B /* TargetType.swift in Sources */,
+				1E73D64629AF366100CE3DAB /* CellIdentifiable.swift in Sources */,
+				1E73D63C29AF31F200CE3DAB /* NetworkEncoder.swift in Sources */,
 				1E574E3D29A60BE80070B03B /* MainViewController.swift in Sources */,
+				1E574E7629A60F7B0070B03B /* HTTPMethod.swift in Sources */,
+				1E574EC529A7356F0070B03B /* FetchImageUseCase.swift in Sources */,
+				1E73D64229AF364E00CE3DAB /* MainTableViewDataSource.swift in Sources */,
+				1E73D64429AF365700CE3DAB /* MainTableViewDelegate.swift in Sources */,
+				1E73D64A29AF369300CE3DAB /* MainTableViewCell.swift in Sources */,
+				1E73D64D29AF484E00CE3DAB /* NetworkProvider.swift in Sources */,
 				1E574E3929A60BE80070B03B /* AppDelegate.swift in Sources */,
+				1E574E7429A60F720070B03B /* NetworkError.swift in Sources */,
 				1E574E3B29A60BE80070B03B /* SceneDelegate.swift in Sources */,
+				1E574E7229A60F680070B03B /* Endpoint.swift in Sources */,
+				1E73D64829AF367200CE3DAB /* UIImageView+Extension.swift in Sources */,
+				1E73D63E29AF31F800CE3DAB /* NetworkDecoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
